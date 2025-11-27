@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- DUBS SKYLIGHTS PATCH -->
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[@Name="BasedSkyLight"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_Skylights</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+</Patch>

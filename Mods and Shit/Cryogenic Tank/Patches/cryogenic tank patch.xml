@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- CRYOGENIC TANKS -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[@Name="CryogenicTank"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_CryogenicTanks</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+</Patch>

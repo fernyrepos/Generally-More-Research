@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Thermometers</defName>
+		<label>Thermometers</label>
+		<description>Build devices capable of measuring the temperature.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>28</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

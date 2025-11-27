@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_CryptoCoffins</defName>
+		<label>Crypto coffins</label>
+		<description>Build self-powering coffins capable of keeping a corpse in stasis.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>29</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Cryptosleep</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

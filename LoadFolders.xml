@@ -1,0 +1,11 @@
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="vemp.pipenetwork">Mods and Shit/Milk Pipe Network</li>
+    <li IfModActive="mlie.temperaturegauge">Mods and Shit/Temperature Gauge</li>
+    <li IfModActive="dubwise.dubsskylights">Mods and Shit/Dubs Skylights</li>
+    <li IfModActive="ucp.holodancers">Mods and Shit/Holo Dancers</li>
+    <li IfModActive="sbz.cryogenictank">Mods and Shit/Cryogenic Tank</li>
+    <li IfModActive="echotidefish.cryptocoffinsforked">Mods and Shit/Crypto Coffins</li>
+  </v1.6>
+</loadFolders>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- CRYPTO COFFINS -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="CryptoCoffin"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_CryptoCoffins</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+</Patch>

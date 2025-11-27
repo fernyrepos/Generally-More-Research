@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- TEMPERATURE GAUGE -->
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="TemperatureGauge"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_Thermometers</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="TemperatureGaugeWall"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_Thermometers</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="TemperatureSwitch"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_Thermometers</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+</Patch>

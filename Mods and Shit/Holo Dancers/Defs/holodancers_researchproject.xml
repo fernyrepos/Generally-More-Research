@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_HoloDancers</defName>
+		<label>Holo-dancers</label>
+		<description>Build dazzling holographic avatars, lighting up the area and charming passerbys with their dances.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

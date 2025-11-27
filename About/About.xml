@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Generally More Research</name>
+	<author>ferny</author>
+	<packageId>ferny.generallymoreresearch</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Get additional research projects.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ludeon.Rimworld.Odyssey</li>
+		<li>vemp.pipenetwork</li>
+		<li>mlie.temperaturegauge</li>
+		<li>dubwise.dubsskylights</li>
+		<li>ucp.holodancers</li>
+		<li>sbz.cryogenictank</li>
+		<li>echotidefish.cryptocoffinsforked</li>
+	</loadAfter>
+</ModMetaData>

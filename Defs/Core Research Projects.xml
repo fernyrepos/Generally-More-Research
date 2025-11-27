@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!-- Comms console -->
+	<ResearchProjectDef>
+		<defName>Ferny_CommsConsole</defName>
+		<label>Comms console</label>
+		<description>Communicate with other factions, trade remotely with passing orbital traders, and open your colony to the grander world.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>
