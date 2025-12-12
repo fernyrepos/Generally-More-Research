@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Ferny_XenogeneticRituals</defName>
+    <label>xenogenetic rituals</label>
+    <description>Perform psychic rituals that alter the genetics of hosts.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>50</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

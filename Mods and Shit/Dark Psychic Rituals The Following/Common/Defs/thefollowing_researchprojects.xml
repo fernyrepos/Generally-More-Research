@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Ferny_InvokeVoidAlly</defName>
+    <label>invoke void ally</label>
+    <description>Perform a psychic ritual that invokes a dark ally from the void to assist you.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>0.10</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_InvokeEclipse</defName>
+    <label>invoke eclipse</label>
+    <description>Perform a psychic ritual that shrouds the colony in darkness.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>8.50</researchViewX>
+    <researchViewY>0.10</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_HealingPulse</defName>
+    <label>healing pulse</label>
+    <description>Perform a psychic ritual that improves wound healing for your colonists.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>1.30</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_ImmunityPulse</defName>
+    <label>immunity pulse</label>
+    <description>Perform a psychic ritual that improves immunity gain for your colonists.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>6.50</researchViewX>
+    <researchViewY>1.90</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_InhumanizingChant</defName>
+    <label>inhumanization</label>
+    <description>Perform a psychic ritual that strips you of your humanity, in favor of damp comfort and nulled pain.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>9.50</researchViewX>
+    <researchViewY>1.60</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_RegenerativeChant</defName>
+    <label>regenerative chant</label>
+    <description>Perform a psychic ritual that attempts to heal the wounds of the target.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>8.50</researchViewX>
+    <researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_SkipMigration</defName>
+    <label>skip migration</label>
+    <description>Perform a psychic ritual that relocates your entire colony somewhere on the planet.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>30</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>9.50</researchViewX>
+    <researchViewY>0.40</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_VoidCleanse</defName>
+    <label>void cleanse</label>
+    <description>Perform a psychic ritual that frees an individual from the firm hold of the void.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>150</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>10.50</researchViewX>
+    <researchViewY>1.30</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_VoidTouchTransfer</defName>
+    <label>void-touch transfer</label>
+    <description>Perform a psychic ritual that transfers the mark of the void onto another host.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>150</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>10.50</researchViewX>
+    <researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_WitheringChant</defName>
+    <label>withering chant</label>
+    <description>Perform a psychic ritual that causes enemies in the region to wither away.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>40</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>9.50</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_Bioshred</defName>
+    <label>bioshredding</label>
+    <description>Perform a psychic ritual that shreds a target, leaving nothing but bioferrite in its place.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>35</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>8.50</researchViewX>
+    <researchViewY>1.90</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_ShardProduction</defName>
+    <label>shard reaping</label>
+    <description>Perform a psychic ritual that manifests dark archotech shards in exchange for an offering of bioferrite.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>35</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>1.90</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

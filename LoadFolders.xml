@@ -1,11 +1,20 @@
 <loadFolders>
   <v1.6>
     <li>/</li>
+
+    <!-- General -->
     <li IfModActive="vemp.pipenetwork">Mods and Shit/Milk Pipe Network</li>
     <li IfModActive="mlie.temperaturegauge">Mods and Shit/Temperature Gauge</li>
     <li IfModActive="dubwise.dubsskylights">Mods and Shit/Dubs Skylights</li>
     <li IfModActive="ucp.holodancers">Mods and Shit/Holo Dancers</li>
     <li IfModActive="sbz.cryogenictank">Mods and Shit/Cryogenic Tank</li>
     <li IfModActive="echotidefish.cryptocoffinsforked">Mods and Shit/Crypto Coffins</li>
+
+    <!-- DSR The Following -->
+    <li IfModActive="dprtf.darkpsychicrituals.sentinel">Mods and Shit/Dark Psychic Rituals The Following/Common</li>
+    <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Royalty">Mods and Shit/Dark Psychic Rituals The Following/Royalty</li>
+    <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Biotech">Mods and Shit/Dark Psychic Rituals The Following/Biotech</li>
+
+
   </v1.6>
 </loadFolders>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- DSR THE FOLLOWING BIOTECH -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_Xenoverwrite[defName="XenoverwriteSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_XenogeneticRituals</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_Xenophagy[defName="XenophagySTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_XenogeneticRituals</researchPrerequisite>
+                    </value>
+                </Operation>
+
+</Patch>

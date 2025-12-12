@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- DSR THE FOLLOWING -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_SkipMigration[defName="SkipMigrationSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_SkipMigration</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_WitheringChant[defName="WitheringChantSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_WitheringChant</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_VoidTouchedTransfer[defName="VoidTouchedTransferSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_VoidTouchTransfer</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_Anomally[defName="AnomallySTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_InvokeVoidAlly</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_Eclipse[defName="EclipseSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_InvokeEclipse</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_Bioshredder[defName="BioshredderSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_Bioshred</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_BioferriteConversion[defName="BioferriteConversionSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_ShardProduction</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_RegenerativeChant[defName="RegenerativeChantSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_RegenerativeChant</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse[defName="HealingPulseSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_HealingPulse</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_HediffPulse[defName="ImmunityPulseSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_ImmunityPulse</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_VoidCleanse[defName="VoidCleanseSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_VoidCleanse</researchPrerequisite>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_InhumanizingChant[defName="InhumanizingChantSTNL"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>Ferny_InhumanizingChant</researchPrerequisite>
+                    </value>
+                </Operation>
+
+</Patch>

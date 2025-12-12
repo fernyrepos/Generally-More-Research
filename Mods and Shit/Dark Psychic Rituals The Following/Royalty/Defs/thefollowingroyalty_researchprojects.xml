@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Ferny_PsychicAwakening</defName>
+    <label>psychic awakening</label>
+    <description>Perform a psychic ritual that awakens latent psychic potential in the target.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>50</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>8.50</researchViewX>
+    <researchViewY>1.30</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
