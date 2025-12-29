@@ -10,8 +10,10 @@
     <li IfModActive="sbz.cryogenictank">Mods and Shit/Cryogenic Tank</li>
     <li IfModActive="echotidefish.cryptocoffinsforked">Mods and Shit/Crypto Coffins</li>
     <li IfModActive="mlie.barnstall">Mods and Shit/Barn Stalls</li>
+    <li IfModActive="zarii.whitenoise">Mods and Shit/White Noise</li>
 
     
+
 
     <!-- DSR The Following -->
     <li IfModActive="dprtf.darkpsychicrituals.sentinel">Mods and Shit/Dark Psychic Rituals The Following/Common</li>

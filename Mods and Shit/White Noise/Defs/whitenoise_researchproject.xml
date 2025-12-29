@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_WhiteNoiseMachine</defName>
+		<label>White noise machine</label>
+		<description>Build a machine capable of keeping colonists in barracks asleep through disturbance, while providing a small mood boost.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedWhiteNoiseMachine</defName>
+		<label>Advanced white noise machine</label>
+		<description>Build an upgraded sleep assistant machine, providing longer-lasting mood boosts.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_WhiteNoiseMachine</li>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

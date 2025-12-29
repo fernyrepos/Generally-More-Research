@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[@Name="NoiseMakerBase"]/researchPrerequisites</xpath>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="WhiteNoiseMachine"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_WhiteNoiseMachine</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="WhiteNoiseDevice"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_AdvancedWhiteNoiseMachine</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+</Patch>
