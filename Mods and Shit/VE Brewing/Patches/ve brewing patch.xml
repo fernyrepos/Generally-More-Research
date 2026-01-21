@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- Research -->
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/RecipeDef[defName="VBE_MakeCigarettes"]/researchPrerequisite</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="VBE_MakeCigarettes"]/researchPrerequisite</xpath>
+                    <value>
+                      <researchPrerequisite>
+                        <li>Ferny_Cigarettes</li>
+                      </researchPrerequisite> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="VBE_MakeCigarettes"]</xpath>
+                    <value>
+                      <researchPrerequisite>
+                        <li>Ferny_Cigarettes</li>
+                      </researchPrerequisite> 
+                    </value>
+                  </nomatch>
+                </Operation>
+      
+</Patch>

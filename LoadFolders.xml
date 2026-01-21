@@ -11,10 +11,9 @@
     <li IfModActive="echotidefish.cryptocoffinsforked">Mods and Shit/Crypto Coffins</li>
     <li IfModActive="mlie.barnstall">Mods and Shit/Barn Stalls</li>
     <li IfModActive="zarii.whitenoise">Mods and Shit/White Noise</li>
+    <li IfModActive="Salvador143.ShuttleDock">Mods and Shit/Shuttle Dock</li>
 
-    
-
-
+  
     <!-- DSR The Following -->
     <li IfModActive="dprtf.darkpsychicrituals.sentinel">Mods and Shit/Dark Psychic Rituals The Following/Common</li>
     <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Royalty">Mods and Shit/Dark Psychic Rituals The Following/Royalty</li>

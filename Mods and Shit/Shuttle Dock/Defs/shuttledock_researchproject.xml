@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_TransportDock</defName>
+		<label>transport dock</label>
+		<description>Build remote operated armored ceilings designed for quick takeoff and landing.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>
