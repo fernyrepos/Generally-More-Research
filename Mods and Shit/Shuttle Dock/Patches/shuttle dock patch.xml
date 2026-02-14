@@ -28,6 +28,15 @@
                     </researchPrerequisites>
                 </value>
                 </Operation>
+      
+                <Operation Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="MThings_11x11ShuttleDock"]/researchPrerequisites</xpath>
+                <value>
+                    <researchPrerequisites>
+                    <li>Ferny_TransportDock</li>
+                    </researchPrerequisites>
+                </value>
+                </Operation>
 
                 <Operation Class="PatchOperationFindMod">
                     <mods>
