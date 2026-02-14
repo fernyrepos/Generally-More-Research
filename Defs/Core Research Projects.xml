@@ -15,4 +15,40 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
+<!-- Game of ur -->
+	<ResearchProjectDef>
+		<defName>Ferny_GameOfUr</defName>
+		<label>Game-of-Ur board</label>
+		<description>Set up an exciting yet infuriating board game can be played by one or two people. It trains intellectual skills.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+<!-- Hoopstone ring -->
+	<ResearchProjectDef>
+		<defName>Ferny_HoopstoneRing</defName>
+		<label>Hoopstone ring</label>
+		<description>Build a simple ancient game played with stones and a large ring in the ground. Players try to toss stones through the ring from a distance. It's relaxing, and trains shooting skills.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+<!-- Billiards table -->
+	<ResearchProjectDef>
+		<defName>Ferny_BilliardsTable</defName>
+		<label>Billiards table</label>
+		<description>Build a soft-topped bounded table for playing a variety of billiards-type games. It trains shooting ability.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
 </Defs>

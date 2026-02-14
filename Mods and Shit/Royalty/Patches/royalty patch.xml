@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- NATURE SHRINES -->
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[@Name="NatureShrineBase"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[@Name="NatureShrineBase"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[@Name="NatureShrineBase"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="NatureShrine_Small"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="NatureShrine_Small"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="NatureShrine_Small"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="NatureShrine_Large"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="NatureShrine_Large"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="NatureShrine_Large"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+</Patch>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_BlueGelBattery</defName>
+		<label>Blue gel battery</label>
+		<description>Build an advanced battery that can store more electricity than regular batteries thanks to the energetic make-up of blue gel. As a downside, they are highly flammable.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_HexagelBattery</defName>
+		<label>Hexagel battery</label>
+		<description>Build an advanced battery that can store even more electricity than blue gel batteries. As a downside, they are highly flammable, and they will violently explode if destroyed.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_BlueGelBattery</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_HexagelCore</defName>
+		<label>Hexagel core reactor</label>
+		<description>Build a powerful device capable of producing electricity from latent energy inside hexagel cores.</description>
+		<baseCost>1400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_BlueGelBattery</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

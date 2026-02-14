@@ -19,4 +19,71 @@
                         </researchPrerequisites>
                     </value>
                 </Operation>
+
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="HoopstoneRing"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="HoopstoneRing"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_HoopstoneRing</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="HoopstoneRing"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_HoopstoneRing</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+      
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_GameOfUr</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_GameOfUr</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+      
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="BilliardsTable"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="BilliardsTable"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_BilliardsTable</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="BilliardsTable"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_BilliardsTable</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+
 </Patch>

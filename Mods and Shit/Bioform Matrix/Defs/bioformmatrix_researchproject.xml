@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_BioformMatrix</defName>
+		<label>Bioform matrix</label>
+		<description>Build an advanced machine that connects to biosculptors, helping to speed up the process of biosculpting by improving biogel throughput and filtration to ensure optimal cell regeneration and chemical transfer.</description>
+		<baseCost>1800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Bioregeneration</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

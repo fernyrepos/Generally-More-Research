@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="AA_BlueGelBattery"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_BlueGelBattery</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="AA_BlueGel"]/description</xpath>
+                    <value>
+                        <description>A syrupy residue extracted from Aerofleets which can be refined into an energy-dense compound. It can be used to build powerful batteries and generators if researched.</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="AA_BlueGelBattery"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_BlueGelBattery</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="AA_HexaGelBattery"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_HexagelBattery</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="AA_HexaGel"]/description</xpath>
+                    <value>
+                        <description>A crystallized and condensed variety of blue gel. Hexagel is capable of storing much more energy than its non-refined cousin, but it also seems to be quite unstable. Hexagel can be used to build powerful batteries and generators if researched.</description>
+                    </value>
+                </Operation>
+                
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="AA_HexagelCoreReactor"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_HexagelCore</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+</Patch>

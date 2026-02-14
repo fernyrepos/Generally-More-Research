@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedWindTurbine</defName>
+		<label>Advanced wind turbine</label>
+		<description>Build a highly efficient wind-powered electrical generator, being a significant improvement to traditional turbines.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedSolarGenerator</defName>
+		<label>Advanced solar generator</label>
+		<description>Build a highly efficient solar electrical generator, capable of extracting significantly more energy from sunlight compared to traditional solar panels.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>SolarPanels</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedWatermillGenerator</defName>
+		<label>Advanced watermill generator</label>
+		<description>Build a highly efficient machine that produces electricity from a river. It is capable of extracting significantly more energy compared to a traditional watermill.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>WatermillGenerator</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedGeothermalGenerator</defName>
+		<label>Advanced geothermal generator</label>
+		<description>Build a highly efficient machine that can produce large amounts of electricity from geothermal geysers. It is capable of extracting significantly more energy compared to a traditional geothermal generator.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>GeothermalPower</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

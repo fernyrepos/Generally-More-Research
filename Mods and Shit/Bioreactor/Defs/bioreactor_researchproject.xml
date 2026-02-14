@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Bioreactor</defName>
+		<label>Bioreactor</label>
+		<description>Build devices capable of harnessing electricity from natural metabolic processes found within entombed living creatures.</description>
+		<baseCost>1800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

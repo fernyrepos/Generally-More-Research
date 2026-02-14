@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- NATURE SHRINES -->
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[@Name="Dryad_StandingStones"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[@Name="Dryad_StandingStones"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[@Name="Dryad_StandingStones"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_NatureShrines</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+</Patch>

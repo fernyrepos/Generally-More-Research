@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_ChemfuelLogistics</defName>
+		<label>Chemfuel logistics</label>
+		<description>Build a sprawling network for transporting chemfuel.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Deepchem</defName>
+		<label>Deepchem</label>
+		<description>Unearth hidden deposits of unrefined chemfuel referred to as Deepchem. Manage it through a sprawling network of tubes and refineries.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+</Defs>

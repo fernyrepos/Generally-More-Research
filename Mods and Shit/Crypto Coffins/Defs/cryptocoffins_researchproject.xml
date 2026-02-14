@@ -2,7 +2,7 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>Ferny_CryptoCoffins</defName>
-		<label>Crypto coffins</label>
+		<label>Crypto coffin</label>
 		<description>Build self-powering coffins capable of keeping a corpse in stasis.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>

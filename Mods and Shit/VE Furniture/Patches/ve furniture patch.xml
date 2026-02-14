@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Joy_Arcade"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ArcadeMachine</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Joy_DartsBoard"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_DartsBoard</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Joy_RouletteTable"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_RouletteTable</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Radio_Industrial"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_IndustrialRadio</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Radio_Spacer"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_LongwaveRadio</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_PersonalComputer</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Joy_ModernComputer"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ModernComputer</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName = "TubeTelevision"]/label</xpath>
+		<value>
+			<label>tube television</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName = "TubeTelevision"]/description</xpath>
+		<value>
+			<description>Produce tube televisions for recreational watching.</description>
+		</value>
+	</Operation>
+
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName = "FlatscreenTelevision"]/label</xpath>
+		<value>
+			<label>flatscreen television</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName = "FlatscreenTelevision"]/description</xpath>
+		<value>
+			<description>Produce high-resolution flatscreen televisions for greater enjoyment.</description>
+		</value>
+	</Operation>
+
+
+
+
+</Patch>

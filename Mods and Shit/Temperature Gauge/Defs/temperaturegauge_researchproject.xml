@@ -2,7 +2,7 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>Ferny_Thermometers</defName>
-		<label>Thermometers</label>
+		<label>Thermometer</label>
 		<description>Build devices capable of measuring the temperature.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>

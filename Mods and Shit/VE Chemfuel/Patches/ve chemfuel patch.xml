@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- Chemfuel Pipe -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_ChemfuelPipe"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ChemfuelLogistics</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Underground Chemfuel Pipe -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_UndergroundChemfuelPipe"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ChemfuelLogistics</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Chemfuel Valve -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_ChemfuelValve"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ChemfuelLogistics</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Chemfuel Tank -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="PS_ChemfuelTank"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ChemfuelLogistics</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Chemfuel Tap -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_ChemfuelTap"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ChemfuelLogistics</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Chemfuel Drain -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_ChemfuelDrain"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_ChemfuelLogistics</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+
+
+<!-- Deepchem Pipe -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_DeepchemPipe"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Underground Deepchem Pipe -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_UndergroundDeepchemPipe"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Deepchem Valve -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_DeepchemValve"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Deepchem Tank -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="PS_DeepchemTank"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Deepchem Refinery -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="PS_DeepchemRefinery"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Deepchem Pumpjack -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_DeepchemPumpjack"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Deepchem Tap -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_DeepchemTap"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!-- Deepchem Drain -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="VCHE_DeepchemDrain"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_Deepchem</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+</Patch>

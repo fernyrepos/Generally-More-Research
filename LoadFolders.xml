@@ -12,13 +12,23 @@
     <li IfModActive="mlie.barnstall">Mods and Shit/Barn Stalls</li>
     <li IfModActive="zarii.whitenoise">Mods and Shit/White Noise</li>
     <li IfModActive="Salvador143.ShuttleDock">Mods and Shit/Shuttle Dock</li>
+    <li IfModActive="ludeon.rimworld.royalty">Mods and Shit/Royalty</li>
+    <li IfModActive="trickity.samurai.faction">Mods and Shit/T Samurai Faction</li>
+    <li IfModActive="redmattis.dryads">Mods and Shit/Dryads Reworked</li>
+    <li IfModActive="mlie.bioreactor">Mods and Shit/Bioreactor</li>
+    <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
+    <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
+    <li IfModActive="vanillaexpanded.vchemfuele">Mods and Shit/VE Chemfuel</li>
+    <li IfModActive="vanillaexpanded.vanillatradingexpanded">Mods and Shit/VE Trading</li>
+    <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
+    <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
+    <li IfModActive="vanillaexpanded.vfespacer">Mods and Shit/VFE Spacer</li>
 
-  
+
     <!-- DSR The Following -->
     <li IfModActive="dprtf.darkpsychicrituals.sentinel">Mods and Shit/Dark Psychic Rituals The Following/Common</li>
     <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Royalty">Mods and Shit/Dark Psychic Rituals The Following/Royalty</li>
     <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Biotech">Mods and Shit/Dark Psychic Rituals The Following/Biotech</li>
-
 
   </v1.6>
 </loadFolders>

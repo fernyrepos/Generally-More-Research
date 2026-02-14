@@ -2,7 +2,7 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>Ferny_MilkNetwork</defName>
-		<label>Milk network</label>
+		<label>Milk logistics</label>
 		<description>Build a sprawling network for transporting milk.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>

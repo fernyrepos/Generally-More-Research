@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- BIOREACTOR -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[@Name="BioReactorBase"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_Bioreactor</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+</Patch>
