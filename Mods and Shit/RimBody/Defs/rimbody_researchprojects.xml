@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Ferny_Barbell</defName>
+    <label>Barbell</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to build barbells for structured strength training.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_Dumbbells</defName>
+    <label>Dumbbells</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to make dumbbells for compact strength training.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.6</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_Kettlebell</defName>
+    <label>Kettlebell</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to make kettlebells for practical strength and conditioning work.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_FlatBench</defName>
+    <label>Flat bench</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to build flat benches for basic workout routines.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_WeightBenchSet</defName>
+    <label>Weight bench set</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to build a full weight bench set for more advanced lifting.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.6</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_PullupBars</defName>
+    <label>Pull up bars</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to build pull up bars for bodyweight strength training.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_ExerciseBall</defName>
+    <label>Exercise ball</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to make exercise balls for balance and mobility training.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_ExerciseBike</defName>
+    <label>Exercise bike</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to build exercise bikes for steady indoor cardio training.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0.6</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_Treadmill</defName>
+    <label>Treadmill</label>
+    <tab>RimbodyResearchTab</tab>
+    <description>Learn to build treadmills for powered indoor cardio training.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0.6</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

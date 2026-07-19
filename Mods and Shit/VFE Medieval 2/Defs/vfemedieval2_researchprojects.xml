@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Hardweave</defName>
+		<label>Hardweave</label>
+		<description>Weave smokeleaf threads together to create hardweave, a resistant alternative to cloth.</description>
+		<baseCost>350</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Hayweave</defName>
+		<label>Hayweave</label>
+		<description>Weave hay strands together to create a brittle, inferior fabric known as hayweave.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

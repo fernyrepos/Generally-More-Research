@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+
+                <Operation Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="RimJoust_SpotBase"]</xpath>
+                <value>
+                    <researchPrerequisites>
+                    <li>Ferny_Jousting</li>
+                    </researchPrerequisites>
+                </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RimJoust_LiceBarrier"]</xpath>
+                <value>
+                    <researchPrerequisites>
+                    <li>Ferny_Jousting</li>
+                    </researchPrerequisites>
+                </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RimJoust_Quintain"]</xpath>
+                <value>
+                    <researchPrerequisites>
+                    <li>Ferny_Jousting</li>
+                    </researchPrerequisites>
+                </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="RimJoust_RecoverySpot"]</xpath>
+                <value>
+                    <researchPrerequisites>
+                    <li>Ferny_Jousting</li>
+                    </researchPrerequisites>
+                </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="RimJoust_StagingPostBase"]</xpath>
+                <value>
+                    <researchPrerequisites>
+                    <li>Ferny_Jousting</li>
+                    </researchPrerequisites>
+                </value>
+                </Operation>
+
+
+</Patch>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_CupAndDice</defName>
+		<label>Cup and dice</label>
+		<description>Build a medieval game of luck played with a leather cup and some dice.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_RimWar</defName>
+		<label>Rim of war</label>
+		<description>Build a soft-topped bounded table for simulating a war game.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Tarocco</defName>
+		<label>Tarocco table</label>
+		<description>Build a table designed for playing card games like Tarocco.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

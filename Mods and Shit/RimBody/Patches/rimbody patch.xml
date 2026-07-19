@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Rimbody_IndustrialEquipments"]/label</xpath>
+    <value>
+      <label>Weight rack</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Rimbody_IndustrialEquipments"]/description</xpath>
+    <value>
+      <description>Build weight racks to organize workout equipment and support focused strength training.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Rimbody_IndustrialEquipments"]/baseCost</xpath>
+    <value>
+      <baseCost>500</baseCost>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Rimbody_IndustrialEquipments"]/prerequisites</xpath>
+    <value>
+      <prerequisites>
+        <li>Smithing</li>
+      </prerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_Barbell"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Ferny_Barbell</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_ExerciseBike"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Ferny_ExerciseBike</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_FlatBench"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Ferny_FlatBench</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_PullupBars"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Ferny_PullupBars</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_Treadmill"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Ferny_Treadmill</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_WeightBench"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Ferny_WeightBenchSet</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_Dumbbells"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Dumbbells</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_ExerciseBall"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_ExerciseBall</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Rimbody_Kettlebell"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Kettlebell</researchPrerequisite>
+    </value>
+  </Operation>
+
+</Patch>

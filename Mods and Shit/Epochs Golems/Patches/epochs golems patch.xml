@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Existing research project reshapes -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_BasicGolemancy"]/label</xpath>
+		<value>
+			<label>Golemancy</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyGear"]/label</xpath>
+		<value>
+			<label>Golemancy board</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyGear"]/description</xpath>
+		<value>
+			<description>Build a golemancy board to speed up golem forming.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyGear"]/baseCost</xpath>
+		<value>
+			<baseCost>300</baseCost>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_AdvancedGolemancy"]/label</xpath>
+		<value>
+			<label>Steel golem</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_AdvancedGolemancy"]/description</xpath>
+		<value>
+			<description>Assemble steel golems from steel, clay, and anima dolls.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_AdvancedGolemancy"]/baseCost</xpath>
+		<value>
+			<baseCost>750</baseCost>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyModules"]/label</xpath>
+		<value>
+			<label>Golem modification</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyModules"]/description</xpath>
+		<value>
+			<description>Craft and install brain modules for golems.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyModules"]/baseCost</xpath>
+		<value>
+			<baseCost>500</baseCost>
+		</value>
+	</Operation>
+
+	<!-- Golem recipes -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="DV_Construct_ChunkGolem"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_ChunkGolem</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="DV_Construct_ComponentGolem"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_ComponentGolem</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="DV_Construct_HayGolem"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_HayGolem</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="DV_Construct_JadeGolem"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_JadeGolem</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<!-- Golemancer gear -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Apparel_GolemancerBag"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_GolemancerBag</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Apparel_GolemancerGoggles"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_GolemancerGoggles</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<!-- Golem module item crafting -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Golem_AnimaClaw"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_AnimaClaw</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Golem_AttackBooster"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_AttackBooster</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Golem_BrickFist"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_BrickFist</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Golem_SleepAccelerator"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_SleepAccelerator</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DV_Golem_SpeedEnhancer"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_SpeedEnhancer</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<!-- Golem module surgery recipes -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallBrainModule"]</xpath>
+		<value>
+			<researchPrerequisite>DV_GolemResearch_GolemancyModules</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallAnimaClaw"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_AnimaClaw</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallAttackBooster"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_AttackBooster</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallBrickFist"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_BrickFist</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallSleepAccelerator"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_SleepAccelerator</researchPrerequisite>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallSpeedEnhancer"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_SpeedEnhancer</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Epochs - Pyrinth</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="DV_Golem_PyrinthTalon"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite>Ferny_PyrinthTalon</researchPrerequisite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="DV_Golem_InstallPyrinthTalon"]</xpath>
+					<value>
+						<researchPrerequisite>Ferny_PyrinthTalon</researchPrerequisite>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

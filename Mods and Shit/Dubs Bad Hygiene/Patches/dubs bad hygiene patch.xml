@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="LitterBox"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="LitterBox"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_LitterBox</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="LitterBox"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_LitterBox</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="PitLatrine"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="PitLatrine"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Latrine</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="PitLatrine"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Latrine</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

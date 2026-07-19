@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="DSC_DJ_Stand"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_DiscoEquipment</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/TerrainDef[defName="DSC_DiscoFloor"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Ferny_DiscoEquipment</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+</Patch>

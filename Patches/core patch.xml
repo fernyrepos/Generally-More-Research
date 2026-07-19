@@ -84,6 +84,32 @@
                   </nomatch>
                 </Operation>
 
+                <!-- <Operation Class="PatchOperationReplace">
+                  <xpath>Defs/ThingDef[defName="Flake"]/recipeMaker/researchPrerequisite</xpath>
+                  <value>
+                    <researchPrerequisite>Ferny_Flake</researchPrerequisite>
+                  </value>
+                </Operation> -->
 
+                <Operation Class="PatchOperationReplace">
+                  <xpath>Defs/ResearchProjectDef[defName="PsychiteRefining"]/label</xpath>
+                  <value>
+                    <label>Yayo</label>
+                  </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                  <xpath>Defs/ResearchProjectDef[defName="PsychiteRefining"]/description</xpath>
+                  <value>
+                    <description>Manufacture a refined powdery preparation of the psychite drug. When snorted, it produces a rapid euphoric high, dramatically reduces the user's need for rest, and suppresses pain. Like all forms of psychite, it is addictive, though it is not as addictive as the cruder flake.</description>
+                  </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                  <xpath>Defs/ResearchProjectDef[defName="PsychiteRefining"]/baseCost</xpath>
+                  <value>
+                    <baseCost>300</baseCost>
+                  </value>
+                </Operation>
 
 </Patch>

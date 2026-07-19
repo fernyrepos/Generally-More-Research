@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BicycleGenerator</defName>
+		<label>Bicycle generator</label>
+		<description>Build a device to generate power from manual motion on a bicycle.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

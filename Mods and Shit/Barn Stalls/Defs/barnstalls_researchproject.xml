@@ -2,8 +2,8 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>Ferny_Barnstalls</defName>
-		<label>Barn stalls</label>
-		<description>Build walled stalls for your animals to sleep in.</description>
+		<label>Barn stall</label>
+		<description>Build a walled stall for your animals to sleep in.</description>
 		<baseCost>250</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>25.00</researchViewX>

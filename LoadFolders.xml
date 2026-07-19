@@ -18,13 +18,25 @@
     <li IfModActive="mlie.bioreactor">Mods and Shit/Bioreactor</li>
     <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
     <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
+    <li IfModActive="det.epochsgolems">Mods and Shit/Epochs Golems</li>
+    <li IfModActive="dubwise.dubsbadhygiene">Mods and Shit/Dubs Bad Hygiene</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="vanillaexpanded.vchemfuele">Mods and Shit/VE Chemfuel</li>
+    <li IfModActive="vanillaexpanded.vbrewe">Mods and Shit/VE Brewing</li>
     <li IfModActive="vanillaexpanded.vanillatradingexpanded">Mods and Shit/VE Trading</li>
     <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
     <li IfModActive="vanillaexpanded.vfespacer">Mods and Shit/VFE Spacer</li>
-
-
+    <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li>
+    <li IfModActive="trickity.conversion.staff">Mods and Shit/T's Conversion Staff</li>
+    <li IfModActive="forti.rimjoust">Mods and Shit/RimJoust</li>
+    <li IfModActive="yayoflake.mahjong">Mods and Shit/Mahjong Table</li>
+    <li IfModActive="blues.forge">Mods and Shit/Dynamic Effects Forge</li>
+    <li IfModActive="co.uk.epicguru.disco">Mods and Shit/Disco</li>
+    <li IfModActive="spesscarp.electricigniter">Mods and Shit/Electric Igniter</li>
+    <li IfModActive="zal.hamsterwheelgenerator">Mods and Shit/Hamster Wheel Generator</li>
+    <li IfModActive="flashpoint55.humanpowergeneratormod">Mods and Shit/Human Power Generator Mod</li>
+    <li IfModActive="maux36.rimbody">Mods and Shit/RimBody</li>
     <!-- DSR The Following -->
     <li IfModActive="dprtf.darkpsychicrituals.sentinel">Mods and Shit/Dark Psychic Rituals The Following/Common</li>
     <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Royalty">Mods and Shit/Dark Psychic Rituals The Following/Royalty</li>

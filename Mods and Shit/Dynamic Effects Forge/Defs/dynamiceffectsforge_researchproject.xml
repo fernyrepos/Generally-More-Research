@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Humidifier</defName>
+		<label>humidifier</label>
+		<description>Build a humidifier to improve mood in your colony.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

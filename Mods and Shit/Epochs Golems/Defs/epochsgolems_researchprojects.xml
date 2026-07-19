@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_ChunkGolem</defName>
+		<label>Chunk golem</label>
+		<description>Learn to assemble chunk golems from stone chunks, clay, and anima dolls.</description>
+		<baseCost>500</baseCost>
+		<researchViewX>2.50</researchViewX>
+		<researchViewY>0.90</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_BasicGolemancy</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ComponentGolem</defName>
+		<label>Component golem</label>
+		<description>Learn to assemble component golems from industrial components, clay, and anima dolls.</description>
+		<baseCost>750</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>1.50</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_BasicGolemancy</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_HayGolem</defName>
+		<label>Hay golem</label>
+		<description>Learn to assemble hay golems from hay, clay, and anima dolls.</description>
+		<baseCost>750</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>0.90</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_BasicGolemancy</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_JadeGolem</defName>
+		<label>Jade golem</label>
+		<description>Learn to assemble jade golems from jade, clay, and anima dolls.</description>
+		<baseCost>750</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>0.30</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_BasicGolemancy</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_GolemancerBag</defName>
+		<label>Golemancer bag</label>
+		<description>Craft a tool bag for storing clay-carving tools and golem-forming components.</description>
+		<baseCost>250</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>2.10</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_BasicGolemancy</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_GolemancerGoggles</defName>
+		<label>Golemancer goggles</label>
+		<description>Craft carved anima-wood goggles for golemancers.</description>
+		<baseCost>250</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>2.70</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_BasicGolemancy</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AnimaClaw</defName>
+		<label>Anima claw</label>
+		<description>Craft and attach anima claws to golems.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>3.30</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_GolemancyModules</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AttackBooster</defName>
+		<label>Attack booster</label>
+		<description>Craft and install attack booster modules for golems.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>3.30</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_GolemancyModules</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BrickFist</defName>
+		<label>Brick fist</label>
+		<description>Craft and attach brick fists to golems.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>5.50</researchViewX>
+		<researchViewY>3.30</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_GolemancyModules</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="det.epochspyrinth">
+		<defName>Ferny_PyrinthTalon</defName>
+		<label>Pyrinth talon</label>
+		<description>Craft and attach pyrinth talons to golems.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>6.50</researchViewX>
+		<researchViewY>3.30</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_GolemancyModules</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_SleepAccelerator</defName>
+		<label>Sleep accelerator</label>
+		<description>Craft and install sleep accelerator modules for golems.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>3.50</researchViewX>
+		<researchViewY>3.90</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_GolemancyModules</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_SpeedEnhancer</defName>
+		<label>Speed enhancer</label>
+		<description>Craft and install speed enhancer modules for golems.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>3.90</researchViewY>
+		<heldByFactionCategoryTags Inherit="False" />
+		<prerequisites>
+			<li>DV_GolemResearch_GolemancyModules</li>
+		</prerequisites>
+		<techLevel>Medieval</techLevel>
+		<tab>DV_EpochsTab</tab>
+	</ResearchProjectDef>
+</Defs>

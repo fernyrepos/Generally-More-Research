@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_ConversionStaff</defName>
+		<label>Conversion staff</label>
+		<description>Produce a simple staff used for rituals and conversion. Greatly boosts conversion power and spread factor.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Culture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>
