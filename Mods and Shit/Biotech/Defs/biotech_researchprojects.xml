@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_PollutionPump</defName>
+		<label>Pollution pump</label>
+		<description>Build pumps to slowly clean polluted terrain and pack the waste for disposal.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>2.40</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_PollutionFastpump</defName>
+		<label>Pollution fastpump</label>
+		<description>Build compact high-speed pollution pumps that clear small polluted areas quickly.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_PollutionPump</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_LargePollutionPump</defName>
+		<label>Large pollution pump</label>
+		<description>Build larger pollution-clearing pumps to clean broad polluted areas with industrial-scale machinery.</description>
+		<baseCost>750</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+		<prerequisites>
+			<li>Ferny_PollutionPump</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

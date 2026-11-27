@@ -33,4 +33,13 @@
 		</nomatch>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VEF.Maps.ActiveTerrainDef[defName="VFEM2_Chemdrench"]</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_Chemdrench</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
 </Patch>

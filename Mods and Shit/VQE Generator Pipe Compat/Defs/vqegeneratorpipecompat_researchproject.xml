@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_UraniumLogistics</defName>
+		<label>Uranium logistics</label>
+		<description>Build a sprawling network for transporting uranium.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Machining</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

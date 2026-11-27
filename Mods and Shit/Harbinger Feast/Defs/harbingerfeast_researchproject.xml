@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Ferny_HarbingerFeast</defName>
+    <label>harbinger feast</label>
+    <description>Perform a psychic ritual that feeds distant outdoor corpses to harbinger trees, producing twisted meat or bioferrite.</description>
+    <tab>Anomaly</tab>
+    <prerequisites>
+      <li>AdvancedPsychicRituals</li>
+    </prerequisites>
+    <knowledgeCost>60</knowledgeCost>
+    <knowledgeCategory>Advanced</knowledgeCategory>
+    <researchViewX>11.50</researchViewX>
+    <researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

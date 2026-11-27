@@ -13,17 +13,16 @@
     <li IfModActive="zarii.whitenoise">Mods and Shit/White Noise</li>
     <li IfModActive="Salvador143.ShuttleDock">Mods and Shit/Shuttle Dock</li>
     <li IfModActive="ludeon.rimworld.royalty">Mods and Shit/Royalty</li>
+    <li IfModActive="ludeon.rimworld.biotech">Mods and Shit/Biotech</li>
     <li IfModActive="trickity.samurai.faction">Mods and Shit/T Samurai Faction</li>
     <li IfModActive="redmattis.dryads">Mods and Shit/Dryads Reworked</li>
     <li IfModActive="mlie.bioreactor">Mods and Shit/Bioreactor</li>
     <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
-    <li IfModActive="sarg.alphaanimals">Mods and Shit/Alpha Animals</li>
     <li IfModActive="det.epochsgolems">Mods and Shit/Epochs Golems</li>
-    <li IfModActive="dubwise.dubsbadhygiene">Mods and Shit/Dubs Bad Hygiene</li>
     <li IfModActive="vanillaexpanded.vchemfuele">Mods and Shit/VE Chemfuel</li>
     <li IfModActive="vanillaexpanded.vbrewe">Mods and Shit/VE Brewing</li>
+    <li IfModActive="vanillaexpanded.recycling">Mods and Shit/VE Recycling</li>
     <li IfModActive="vanillaexpanded.vanillatradingexpanded">Mods and Shit/VE Trading</li>
-    <li IfModActive="vanillaexpanded.vfepower">Mods and Shit/VFE Power</li>
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
     <li IfModActive="vanillaexpanded.vfespacer">Mods and Shit/VFE Spacer</li>
     <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li>
@@ -32,11 +31,11 @@
     <li IfModActive="blues.forge">Mods and Shit/Dynamic Effects Forge</li>
     <li IfModActive="co.uk.epicguru.disco">Mods and Shit/Disco</li>
     <li IfModActive="spesscarp.electricigniter">Mods and Shit/Electric Igniter</li>
-    <li IfModActive="zal.hamsterwheelgenerator">Mods and Shit/Hamster Wheel Generator</li>
-    <li IfModActive="flashpoint55.humanpowergeneratormod">Mods and Shit/Human Power Generator Mod</li>
     <li IfModActive="maux36.rimbody">Mods and Shit/RimBody</li>
     <li IfModActive="alma.carbonitecasket">Mods and Shit/Carbonite Casket</li>
     <li IfModActiveAll="alma.carbonitecasket,ferny.consistenttext">Mods and Shit/Carbonite Casket/Consistent Text</li>
+    <li IfModActive="yefreitor.harbingerfeast">Mods and Shit/Harbinger Feast</li>
+    <li IfModActive="bigbarza.vqegenerator.pipecompat">Mods and Shit/VQE Generator Pipe Compat</li>
     <!-- DSR The Following -->
     <li IfModActive="dprtf.darkpsychicrituals.sentinel">Mods and Shit/Dark Psychic Rituals The Following/Common</li>
     <li IfModActiveAll="dprtf.darkpsychicrituals.sentinel,Ludeon.Rimworld.Royalty">Mods and Shit/Dark Psychic Rituals The Following/Royalty</li>

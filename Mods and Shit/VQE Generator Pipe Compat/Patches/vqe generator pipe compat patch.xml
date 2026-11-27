@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Uranium pipe -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PipedARC_UraniumPipe"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_UraniumLogistics</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<!-- Uranium input hopper -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PipedARC_UraniumHopper"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_UraniumLogistics</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<!-- Uranium valve -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PipedARC_UraniumValve"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_UraniumLogistics</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<!-- Uranium buffer tank -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PipedARC_UraniumTank"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_UraniumLogistics</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>
